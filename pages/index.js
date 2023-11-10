@@ -30,11 +30,13 @@ const InputBox = () => {
 
     return (
         <div style={inputBoxStyle}>
+
             <h1 style={titleStyle}>Simulador de Phishing</h1>
             <div style={plusDivStyle}>
                 <img src="/plus.svg" style={{width: '50px', height: '50px',alignSelf: 'center',}}></img>
                 <p style={{ fontSize: '20px', textAlign: 'start', alignSelf: 'center'}}>Envie um teste por whatsapp para conscientizar seus contatos sobre phishing</p>
             </div>
+
             <Form/>
             
             <p style={{alignSelf: 'end',}}>Esse site apenas simula um phishing com propósitos educacionais, não retemos dados e, portanto, não há riscos reais para os contatos</p>
